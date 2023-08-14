@@ -51,17 +51,17 @@ header nav a {
     justify-content: center;
     align-items: center;
 }
-.intro {
+#intro {
     background-image: url('../images/background-1.jpg');
 }
-.mission {
+#mission {
     background-image: url('../images/background-2.jpg');
 }
-.clients {
+#clients {
     background-image: url('../images/background-3.jpg');
 }
-.team {
-    background-image: url('../images/background-1.jpg');
+#team {
+    background-image: url('../images/background-4.jpg');
 }
 /*  */
 
