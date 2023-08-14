@@ -1,0 +1,77 @@
+body, html {
+    margin: 0;
+    font-family: 'Noto Serif', serif;
+    font-size: 16px;
+}
+.italic {
+    font-style: italic;
+}
+.bold {
+    font-style: bold;
+}
+header {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+    background-color: white;
+    display: block;
+}
+header .desktop {
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+header h1 {
+    flex: 1;
+}
+header a {
+    text-decoration: none;
+    color: black;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+header nav a {
+    vertical-align: bottom;
+    font-size: 26px;
+    margin: 25px;
+}
+/* Setup background images for scrolling */
+.background {
+    height: 100vh;
+    background-attachment: fixed;   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.intro {
+    background-image: url('../images/background-1.jpg');
+}
+.mission {
+    background-image: url('../images/background-2.jpg');
+}
+.clients {
+    background-image: url('../images/background-3.jpg');
+}
+.team {
+    background-image: url('../images/background-1.jpg');
+}
+/*  */
+
+.container {
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    text-align: center;
+    max-width: 75%;
+}
+.mission p {
+    font-size: 1.5rem;
+}
