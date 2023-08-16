@@ -7,7 +7,7 @@ body, html {
     font-style: italic;
 }
 .bold {
-    font-style: bold;
+    font-weight: bold;
 }
 header {
     z-index: 10;
@@ -40,6 +40,8 @@ header nav a {
     font-size: 26px;
     margin: 25px;
 }
+/* HEADER TODO */
+/* UNDER 1000 PIXELS NEEDS A NEW NAV BAR */
 /* Setup background images for scrolling */
 .background {
     height: 100vh;
@@ -67,11 +69,26 @@ header nav a {
 
 .container {
     border: 1px solid black;
-    background-color: rgba(255, 255, 255, 0.5);
-    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* padding: 20px; */
     text-align: center;
     max-width: 75%;
 }
-.mission p {
+p {
     font-size: 1.5rem;
+}
+.client-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.client {
+    border: 1px solid black;
+    flex: 1;
+    margin: 20px;
+}
+.client h4 {
+    background-color: white;
+    border: 1px solid black;
 }
